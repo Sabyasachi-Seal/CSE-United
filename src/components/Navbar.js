@@ -3,7 +3,7 @@ import logo from "../assets/images/logo.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 flex py-2 px-4 bg-red-500">
+    <nav className="sticky top-0 flex py-2 px-4 bg-red-800 text-white">
       <div className="grow">
         <img src={logo} alt="" width={40} height={40} />
       </div>

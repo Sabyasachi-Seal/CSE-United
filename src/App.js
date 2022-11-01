@@ -7,6 +7,7 @@ import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Sponsors from "./components/Sponsors";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <FloatingSocialIcons />
 
       <main className="App">
-        <Home />
+        <ParallaxProvider>
+          <Home />
+        </ParallaxProvider>
         <Content />
         <Events />
         <Sponsors />

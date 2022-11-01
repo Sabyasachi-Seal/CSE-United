@@ -1,0 +1,117 @@
+h1 {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+h1 {
+  font-size: calc(1em + 30vmin);
+  font-weight: 900;
+  color: tomato;
+
+  --x-offset: -0.0425em;
+  --y-offset: 0.0325em;
+  --stroke: 0.025em;
+  --background-color: white;
+  --stroke-color: lightblue;
+
+  text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
+    calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
+      0px var(--stroke-color);
+}
+/* for browsers that support spread, added in
+  https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
+  currently: none browsers! none of them!
+  I can't even find a test: 
+  https://wpt.fyi/results/css/css-text-decor */
+@supports (text-shadow: 1px 1px 1px 1px black) {
+  h1 {
+    text-shadow: var(--x-offset) var(--y-offset) 0px 0px var(--background-color),
+      var(--x-offset) var(--y-offset) var(--stroke) 0px var(--stroke-color);
+  }
+}
+
+#svg-view {
+  width: 252px;
+  height: 125px;
+  left: 0px;
+}
+
+.flame {
+  animation-name: flameDisappear;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 0.5;
+  transform-origin: 45% 45% 0;
+}
+.flame.one {
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
+.flame.two {
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.flame-main {
+  animation-name: flameMovement;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.flame-main.one {
+  animation-duration: 2.2s;
+  animation-delay: 1s;
+}
+.flame-main.two {
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+.flame-main.three {
+  animation-duration: 2.1s;
+  animation-delay: 3s;
+}
+.flame-main.four {
+  animation-duration: 3.2s;
+  animation-delay: 4s;
+}
+.flame-main.five {
+  animation-duration: 2.5s;
+  animation-delay: 5s;
+}
+@keyframes flameMovement {
+  50% {
+    transform: scale(0.98, 1) translate(0, 2px) rotate(-1deg);
+  }
+}
+@keyframes flameDisappear {
+  0% {
+    transform: translate(0) rotate(180deg);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-10px, -40px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.logo {
+  filter: drop-shadow(5px 10px 10px #ff0000);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    filter: drop-shadow(5px 10px 10px #ff0000);
+    transform: translatey(0px);
+  }
+  50% {
+    filter: drop-shadow(5px 5px 5px #ff0000);
+    transform: translatey(-20px);
+  }
+  100% {
+    filter: drop-shadow(5px 10px 10px #ff0000);
+    transform: translatey(0px);
+  }
+}
