@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
 import { ReactComponent as Fire } from "../assets/fire.svg";
 
 // use-ref - https://the-goonies.webflow.io/
 
 const Home = () => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+
+    const ele = ref.current;
+    const handleScroll = (event) => {
+      console.log("window.scrollY", window.scrollY);
+      var scroll = event.currentTarget.scrollTop;
+      ele.style.transform = 'scale(5,5)';
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section className="min-h-[90vh] w-full bg-gray-800 text-white flex justify-center items-center">
       <ParallaxBanner
