@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Sponsors from "./components/Sponsors";
 import { ParallaxProvider } from "react-scroll-parallax";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Events />
         <Sponsors />
         <Gallery />
+        <Contact />
         <Footer />
       </main>
     </>
