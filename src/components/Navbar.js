@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 flex py-2 px-4 bg-red-800 text-white">
       <div className="grow">
-        <img src={logo} alt="" width={40} height={40} />
+        <img src={logo} alt="" width={40} height={40} className="rounded-md" />
       </div>
 
       <ul className="flex justify-center items-center">
