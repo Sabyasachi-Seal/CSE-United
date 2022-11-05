@@ -115,3 +115,19 @@ h1 {
     transform: translatey(0px);
   }
 }
+
+
+/* ---------------contact us form--------------- */
+.app-form-control
+{
+  border-bottom: 1px solid;
+  border-radius: 2px;
+  border-color: darkgrey;
+  transition: all 0.8s;
+}
+
+.app-form-control:focus
+{
+  border-color: whitesmoke;
+  outline: none;
+}
