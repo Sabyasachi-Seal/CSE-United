@@ -40,7 +40,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="app-contact text-sm justify-end">
-                  CONTACT INFO : +91 --------------
+                  Contact : +62 81 314 928 595
                 </div>
               </div>
               <div className="form-body-item w-1/2 flex flex-col justify-center ">
@@ -48,30 +48,30 @@ const Contact = () => {
                   <div className="app-form-group">
                     <input
                       className="app-form-control w-full h-8 px-1 bg-transparent"
-                      placeholder="NAME"
+                      placeholder="Name"
                     />
                   </div>
                   <div className="app-form-group">
                     <input
                       className="app-form-control w-full h-8 px-1 bg-transparent"
-                      placeholder="EMAIL"
+                      placeholder="Email"
                     />
                   </div>
                   <div className="app-form-group">
                     <input
                       className="app-form-control w-full h-8 px-1 bg-transparent"
-                      placeholder="CONTACT NO"
+                      placeholder="Contact No"
                     />
                   </div>
                   <div className="app-form-group message">
                     <textarea
                       className="app-form-control w-full h-12 px-1 bg-transparent"
-                      placeholder="MESSAGE"
+                      placeholder="Message"
                     />
                   </div>
                   <div className="app-form-group buttons flex justify-evenly">
-                    <button className="app-form-button p-2 rounded-lg bg-slate-400">CANCEL</button>
-                    <button className="app-form-button p-2 rounded-lg bg-slate-400">SEND</button>
+                    <button className="app-form-button">Cancel</button>
+                    <button className="app-form-button">Send</button>
                   </div>
                 </div>
               </div>

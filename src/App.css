@@ -1,3 +1,7 @@
+/*
+https://colorhunt.co/palette/0000003e3636d72323f5eded
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -84,13 +88,14 @@ h1 {
   border-bottom: 1px solid;
   border-radius: 2px;
   border-color: darkgrey;
-  transition: all 0.8s;
+  transition: all 0.5s;
 }
 
 .app-form-control:focus {
   border-color: whitesmoke;
   outline: none;
 }
+
 
 .test {
   height: 100vh;
@@ -118,4 +123,68 @@ h1 {
 
 .content-bg {
   background: -webkit-linear-gradient(top, #161616, transparent 100%);
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  /* font-size: 1.5rem; */
+  color: var(--colorShadeA);
+  /* font-weight: 700; */
+  text-transform: uppercase;
+  font-family: inherit;
+  --backgroundColor: rgba(246, 241, 209);
+  --colorShadeA: rgb(255, 255, 255);
+  --colorShadeB: rgb(121, 142, 186);
+  --colorShadeC: rgb(150, 152, 232);
+  --colorShadeD: rgb(187, 198, 232);
+  --colorShadeE: rgb(205, 212, 255);
+}
+
+button.app-form-button {
+  padding: 0.5em 1em;
+  border: 2px solid var(--colorShadeA);
+  border-radius: 1em;
+  background: transparent;
+  transform-style: preserve-3d;
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+button.app-form-button::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  border-radius: inherit;
+  /* box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0.5em 0 var(--colorShadeA);
+  transform: translate3d(0, 0em, -1em); */
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+button.app-form-button:hover {
+  background: var(--colorShadeD);
+  transform: translate(0, 0.375em);
+}
+
+button.app-form-button:hover::before {
+  transform: translate3d(0, 0.25em, -1em);
+}
+
+button.app-form-button:active {
+  transform: translate(0em, 0.75em);
+}
+
+button.app-form-button:active::before {
+  transform: translate3d(0, 0, -1em);
+
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }
