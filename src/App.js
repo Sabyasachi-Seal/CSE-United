@@ -9,12 +9,15 @@ import Navbar from "./components/Navbar";
 import Sponsors from "./components/Sponsors";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Contact from "./components/Contact";
+import Background from "./components/Background";
 
 function App() {
   return (
     <>
       <Navbar />
       <FloatingSocialIcons />
+
+      <Background />
 
       <main className="App">
         <ParallaxProvider>

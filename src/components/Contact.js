@@ -5,7 +5,7 @@ import Iframe from "react-iframe";
 
 const Contact = () => {
   return (
-    <section className="min-h-[90vh] w-full bg-blue-300 text-white flex justify-evenly items-center">
+    <section className="min-h-[90vh] w-full bg-transparent text-white flex justify-evenly items-center">
       <div className="background flex min-h-[100vh] items-center">
         <div className="form-container p-[10px] w-[1000px] h-[600px] flex items-center justify-center">
           <div className="form bg-slate-800 rounded-xl w-full h-full">
@@ -32,15 +32,15 @@ const Contact = () => {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.078405559548!2d88.42484061488224!3d22.57617068518093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02751a9d9c9e85%3A0x7fe665c781b10383!2sTechno%20Main%20Salt%20Lake!5e0!3m2!1sen!2sin!4v1667490398485!5m2!1sen!2sin"
                     width="300"
                     height="200"
-                    style="border:0;"
+                    style={{ border: 0 }}
                     allowfullscreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                     className="rounded-lg"
                   />
                 </div>
                 <div className="app-contact text-sm justify-end">
-                  CONTACT INFO : +62 81 314 928 595
+                  CONTACT INFO : +91 --------------
                 </div>
               </div>
               <div className="form-body-item w-1/2 flex flex-col justify-center ">

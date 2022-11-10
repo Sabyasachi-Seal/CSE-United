@@ -1,5 +1,35 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: #161616;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ----------- Background ---------- */
+#bg1,
+#bg2 {
+  position: absolute;
+  z-index: -50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./assets/images/bubbles.png) repeat 0 0;
+}
+
+#bg2 {
+  z-index: -51;
+  background-image: url(./assets/images/bubbles2.png);
+}
+/* ------------------------------------------- */
+
+.black {
+  background-color: #161616;
 }
 
 h1 {
@@ -17,82 +47,15 @@ h1 {
     calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke))
       0px var(--stroke-color);
 }
-/* for browsers that support spread, added in
+
+/* ref -
   https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
-  currently: none browsers! none of them!
-  I can't even find a test: 
-  https://wpt.fyi/results/css/css-text-decor */
+  https://wpt.fyi/results/css/css-text-decor 
+*/
 @supports (text-shadow: 1px 1px 1px 1px black) {
   h1 {
     text-shadow: var(--x-offset) var(--y-offset) 0px 0px var(--background-color),
       var(--x-offset) var(--y-offset) var(--stroke) 0px var(--stroke-color);
-  }
-}
-
-#svg-view {
-  width: 252px;
-  height: 125px;
-  left: 0px;
-}
-
-.flame {
-  animation-name: flameDisappear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  opacity: 0.5;
-  transform-origin: 45% 45% 0;
-}
-.flame.one {
-  animation-delay: 1s;
-  animation-duration: 3s;
-}
-.flame.two {
-  animation-duration: 5s;
-  animation-delay: 1s;
-}
-
-.flame-main {
-  animation-name: flameMovement;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-.flame-main.one {
-  animation-duration: 2.2s;
-  animation-delay: 1s;
-}
-.flame-main.two {
-  animation-duration: 2s;
-  animation-delay: 1s;
-}
-.flame-main.three {
-  animation-duration: 2.1s;
-  animation-delay: 3s;
-}
-.flame-main.four {
-  animation-duration: 3.2s;
-  animation-delay: 4s;
-}
-.flame-main.five {
-  animation-duration: 2.5s;
-  animation-delay: 5s;
-}
-@keyframes flameMovement {
-  50% {
-    transform: scale(0.98, 1) translate(0, 2px) rotate(-1deg);
-  }
-}
-@keyframes flameDisappear {
-  0% {
-    transform: translate(0) rotate(180deg);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-10px, -40px) rotate(180deg);
-    opacity: 0;
   }
 }
 
@@ -116,18 +79,43 @@ h1 {
   }
 }
 
-
 /* ---------------contact us form--------------- */
-.app-form-control
-{
+.app-form-control {
   border-bottom: 1px solid;
   border-radius: 2px;
   border-color: darkgrey;
   transition: all 0.8s;
 }
 
-.app-form-control:focus
-{
+.app-form-control:focus {
   border-color: whitesmoke;
   outline: none;
+}
+
+.test {
+  height: 100vh;
+}
+.test .zoom {
+  position: relative;
+  margin: 0 auto;
+  /* width: 900px; */
+  /* height: 900px; */
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.test .zoom .image {
+  grid-area: 1/1/2/2;
+}
+.test .zoom .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-bg {
+  background: -webkit-linear-gradient(top, #161616, transparent 100%);
 }
