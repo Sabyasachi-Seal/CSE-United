@@ -5,43 +5,25 @@ import HomeMain from "./HomeMain";
 
 const Home = () => {
   return (
-    <section className="min-h-screen w-full text-white black">
+    <section className="min-h-screen w-full text-white bg-theme-black">
       <ParallaxBanner className="aspect-[1]">
         <ParallaxBannerLayer>
-          {/* <div className="w-full h-[140vh] relative z-[-1]">
-            <img
-              src="/bg-bhibhek.jpg"
-              alt=""
-              className="absolute top-0 left-0 bottom-0 right-0 w-full h-[110vh] object-cover"
-            />
-          </div> */}
-
           <HomeMain />
         </ParallaxBannerLayer>
-        {/* <ParallaxBannerLayer scale={[1.4, 0.5]}>
-          <div className="w-full h-[140vh] relative z-[10]">
-            <img
-              src="/CSE_bg_cropped.png"
-              id="abcd"
-              alt=""
-              className="absolute scale-[1.2] top-0 bottom-0 left-0 right-0 w-full h-full object-cover z-[1]"
-            />
-          </div>
-        </ParallaxBannerLayer> */}
 
         <ParallaxBannerLayer speed={-15}>
           <div className="w-full h-full flex justify-center items-center">
-            <Logo width={300} height={300} className="-mt-[400px] logo" />
+            <Logo width={300} height={300} className="-mt-[600px] logo" />
           </div>
         </ParallaxBannerLayer>
 
-        {/* <ParallaxBannerLayer speed={-30}>
+        <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-8xl text-red-600 font-thin -mt-[250px]">
+            <h1 className="text-8xl text-red-600 font-thin">
               CSE-UNITED
             </h1>
           </div>
-        </ParallaxBannerLayer> */}
+        </ParallaxBannerLayer>
       </ParallaxBanner>
     </section>
   );

@@ -32,7 +32,7 @@ body {
 }
 /* ------------------------------------------- */
 
-.black {
+.bg-theme-black {
   background-color: #161616;
 }
 
@@ -96,11 +96,10 @@ h1 {
   outline: none;
 }
 
-
-.test {
+.home-main {
   height: 100vh;
 }
-.test .zoom {
+.home-main .zoom {
   position: relative;
   margin: 0 auto;
   /* width: 900px; */
@@ -112,10 +111,10 @@ h1 {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.test .zoom .image {
+.home-main .zoom .image {
   grid-area: 1/1/2/2;
 }
-.test .zoom .image img {
+.home-main .zoom .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;

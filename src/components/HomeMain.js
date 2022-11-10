@@ -18,7 +18,7 @@ const HomeMain = () => {
 
       gsap.to(".image-1", {
         scale: 1.5,
-        duration: 2,
+        duration: 3,
         scrollTrigger: {
           trigger: ".image-1",
           scrub: true,
@@ -28,8 +28,8 @@ const HomeMain = () => {
       });
 
       gsap.to(".image-2", {
-        scale: 3,
-        duration: 2,
+        scale: 4,
+        duration: 3,
         scrollTrigger: {
           trigger: ".image-2",
           scrub: true,
@@ -43,13 +43,15 @@ const HomeMain = () => {
   }, []);
 
   return (
-    <section className="test" ref={ele}>
-      <div id="zoom" style={{ backgroundColor: "green" }}>
+    <section className="home-main" ref={ele}>
+      <div id="zoom" className="bg-theme-black">
         <div className="zoom">
           <div className="image image-1">
             <img
-              src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeaf7b3cb0ed2d33f7943_hero.jpg"
+              src="/farewell.jpg"
+              // src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeaf7b3cb0ed2d33f7943_hero.jpg"
               alt=""
+              className="scale-75"
             />
           </div>
           <div className="image image-2">
