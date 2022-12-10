@@ -5,7 +5,11 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
 * {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -32,14 +36,27 @@ body {
 }
 /* ------------------------------------------- */
 
+.left-icons-container > li {
+  padding: 1.2rem;
+}
+
+.left-icons-container::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: lightslategray;
+}
+
 .bg-theme-black {
   background-color: #161616;
 }
 
-h1 {
-  font-size: calc(1em + 30vmin);
+.title-text {
+  /* font-size: calc(1em + 30vmin); */
   font-weight: 900;
-  color: tomato;
+  /* color: tomato; */
 
   --x-offset: -0.0425em;
   --y-offset: 0.0325em;
@@ -57,7 +74,7 @@ h1 {
   https://wpt.fyi/results/css/css-text-decor 
 */
 @supports (text-shadow: 1px 1px 1px 1px black) {
-  h1 {
+  .title-text {
     text-shadow: var(--x-offset) var(--y-offset) 0px 0px var(--background-color),
       var(--x-offset) var(--y-offset) var(--stroke) 0px var(--stroke-color);
   }
@@ -155,7 +172,7 @@ button.app-form-button {
 }
 button.app-form-button::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 0;

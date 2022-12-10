@@ -5,7 +5,7 @@ import HomeMain from "./HomeMain";
 
 const Home = () => {
   return (
-    <section className="min-h-screen w-full text-white bg-theme-black">
+    <section id="home" className="min-h-screen w-full text-white bg-theme-black relative">
       <ParallaxBanner className="aspect-[1]">
         <ParallaxBannerLayer>
           <HomeMain />
@@ -19,7 +19,7 @@ const Home = () => {
 
         <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-8xl text-red-600 font-thin">
+            <h1 className="text-8xl text-red-600 font-thin title-text">
               CSE-UNITED
             </h1>
           </div>

@@ -5,7 +5,7 @@ import Iframe from "react-iframe";
 
 const Contact = () => {
   return (
-    <section className="min-h-[90vh] w-full bg-transparent text-white flex justify-evenly items-center">
+    <section id="contact" className="min-h-[90vh] w-full bg-transparent text-white flex justify-evenly items-center">
       <div className="background flex min-h-[100vh] items-center">
         <div className="form-container p-[10px] w-[1000px] h-[600px] flex items-center justify-center">
           <div className="form bg-slate-800 rounded-xl w-full h-full">
