@@ -3,10 +3,10 @@ import Content from "./components/Content";
 import Events from "./components/Events";
 import FloatingSocialIcons from "./components/FloatingSocialIcons";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
+import Gallery from "./components/gallery/Gallery";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Sponsors from "./components/Sponsors";
+// import Sponsors from "./components/Sponsors";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Contact from "./components/Contact";
 import Background from "./components/Background";
@@ -25,7 +25,7 @@ function App() {
         </ParallaxProvider>
         <Content />
         <Events />
-        <Sponsors />
+        {/* <Sponsors /> */}
         <Gallery />
         <Contact />
         <Footer />

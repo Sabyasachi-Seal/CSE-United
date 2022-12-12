@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "type": "image",
+    "url": "/farewell.jpg",
+    "alt": ""
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "/bg-p.jpg",
+    "alt": ""
+  },
+  {
+    "id": "3",
+    "type": "image",
+    "url": "/gallery/1.png",
+    "alt": ""
+  },
+  {
+    "id": "4",
+    "type": "video",
+    "platform": "youtube",
+    "url": "https://youtu.be/BrKA_bic04g",
+    "alt": ""
+  },
+  {
+    "id": "1",
+    "type": "image",
+    "url": "/gallery/2.png",
+    "alt": ""
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "/gallery/3.png",
+    "alt": ""
+  },
+  {
+    "id": "1",
+    "type": "image",
+    "url": "/gallery/4.png",
+    "alt": ""
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "/gallery/5.png",
+    "alt": ""
+  },
+  {
+    "id": "1",
+    "type": "image",
+    "url": "/gallery/6.png",
+    "alt": ""
+  },
+  {
+    "id": "2",
+    "type": "image",
+    "url": "/gallery/7.png",
+    "alt": ""
+  }
+]
