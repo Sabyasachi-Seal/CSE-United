@@ -3,7 +3,7 @@ import ReactPlayer from "react-player/lazy";
 
 const Content = () => {
   return (
-    <section id="about" className="w-full text-white content-bg pl-2">
+    <section id="about" className="w-full text-white content-bg pl-2 md:pt-16">
       <div className="p-8 pl-16">
         <h1 className="text-6xl mb-4" data-aos='fade-right'>The Title</h1>
         <div className="flex flex-col lg:flex-row">

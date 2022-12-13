@@ -22,7 +22,7 @@ const GalleryItem = ({ data, onClickHandler, idx }) => {
       <div
         className='w-full h-[250px] mb-[12px] rounded-sm overflow-hidden'
         data-aos={data.animation || ''}
-        data-aos-once='true'
+        // data-aos-once='true'
       >
         {getPlayer()}
       </div>
@@ -34,7 +34,7 @@ const GalleryItem = ({ data, onClickHandler, idx }) => {
       className='pics'
       onClick={onClickHandler}
       data-aos={data.animation || ''}
-      data-aos-once='true'
+      // data-aos-once='true'
     >
       <img src={data.url} alt={data.alt} className='rounded-sm' />
     </div>
