@@ -3,7 +3,7 @@ import YoutubePlayer from './YoutubePlayer';
 import FacebookPlayer from './FacebookPlayer';
 import ReactPlayer from 'react-player/lazy';
 
-const GalleryItem = ({ data, onClickHandler }) => {
+const GalleryItem = ({ data, onClickHandler, idx }) => {
   const getPlayer = () => {
     switch (data.platform) {
       case 'youtube':
@@ -19,14 +19,23 @@ const GalleryItem = ({ data, onClickHandler }) => {
 
   if (data.type === 'video') {
     return (
-      <div className='w-full h-[250px] mb-[12px] rounded-sm overflow-hidden'>
+      <div
+        className='w-full h-[250px] mb-[12px] rounded-sm overflow-hidden'
+        data-aos={data.animation || ''}
+        data-aos-once='true'
+      >
         {getPlayer()}
       </div>
     );
   }
 
   return (
-    <div className='pics' onClick={onClickHandler}>
+    <div
+      className='pics'
+      onClick={onClickHandler}
+      data-aos={data.animation || ''}
+      data-aos-once='true'
+    >
       <img src={data.url} alt={data.alt} className='rounded-sm' />
     </div>
   );

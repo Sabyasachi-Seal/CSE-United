@@ -3,7 +3,8 @@
     "id": "1",
     "type": "image",
     "url": "/farewell.jpg",
-    "alt": ""
+    "alt": "",
+    "animation": "flip-left"
   },
   {
     "id": "2",
@@ -22,42 +23,50 @@
     "type": "video",
     "platform": "youtube",
     "url": "https://youtu.be/BrKA_bic04g",
-    "alt": ""
+    "alt": "",
+    "animation": "zoom-in"
   },
   {
     "id": "1",
     "type": "image",
     "url": "/gallery/2.png",
-    "alt": ""
+    "alt": "",
+    "animation": "flip-left",
+    "offset": "200"
   },
   {
     "id": "2",
     "type": "image",
     "url": "/gallery/3.png",
-    "alt": ""
+    "alt": "",
+    "animation": "fade-up"
   },
   {
     "id": "1",
     "type": "image",
     "url": "/gallery/4.png",
-    "alt": ""
+    "alt": "",
+    "animation": "fade-down"
   },
   {
     "id": "2",
     "type": "image",
     "url": "/gallery/5.png",
-    "alt": ""
+    "alt": "",
+    "animation": "fade-right"
   },
   {
     "id": "1",
     "type": "image",
     "url": "/gallery/6.png",
-    "alt": ""
+    "alt": "",
+    "animation": "fade-left"
   },
   {
     "id": "2",
     "type": "image",
     "url": "/gallery/7.png",
-    "alt": ""
+    "alt": "",
+    "animation": "fade-down"
   }
 ]

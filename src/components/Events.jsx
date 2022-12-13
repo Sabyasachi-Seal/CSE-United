@@ -10,7 +10,15 @@ const Events = () => {
         Ev<span className='text-red-500'>ent</span>s
       </h1>
       <div className='pt-12'>
-        <p className='text-6xl font-heading italic'>Coming Soon</p>
+        <p
+          className='text-6xl font-heading italic'
+          data-aos='fade-right'
+          data-aos-offset='100'
+          data-aos-easing='ease-in-sine'
+          data-aos-once='true'
+        >
+          Coming Soon
+        </p>
       </div>
     </section>
   );

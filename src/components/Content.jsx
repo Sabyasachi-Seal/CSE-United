@@ -5,9 +5,9 @@ const Content = () => {
   return (
     <section id="about" className="w-full text-white content-bg pl-2">
       <div className="p-8 pl-16">
-        <h1 className="text-6xl mb-4">The Title</h1>
+        <h1 className="text-6xl mb-4" data-aos='fade-right'>The Title</h1>
         <div className="flex flex-col lg:flex-row">
-          <div className="grow-1 py-4">
+          <div className="grow-1 py-4" data-aos='fade-up'>
             <p className="text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -22,7 +22,7 @@ const Content = () => {
             </p>
           </div>
 
-          <div className="grow-1 p-4 flex justify-center">
+          <div className="grow-1 p-4 flex justify-center" data-aos='fade-left'>
             <div className="rounded-md overflow-hidden">
               <ReactPlayer url="https://fb.watch/gVSG5-k0Sq" />
             </div>

@@ -246,12 +246,14 @@ button.app-form-button:active::before {
 
 @media screen and (max-width: 480px) {
   .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
+    -webkit-column-count: 0;
+    -moz-column-count: 0;
+    column-count: 0;
+    /* -webkit-column-width: 100%;
     -moz-column-width: 100%;
-    column-width: 100%;
+    column-width: 100%; */
+    display: flex;
+    flex-direction: column;
   }
 }
 
