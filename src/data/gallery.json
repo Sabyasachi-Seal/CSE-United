@@ -2,14 +2,14 @@
   {
     "id": "1",
     "type": "image",
-    "url": "/farewell.jpg",
+    "url": "/gallery/farewell.jpg",
     "alt": "",
     "animation": "flip-left"
   },
   {
     "id": "2",
     "type": "image",
-    "url": "/bg-p.jpg",
+    "url": "/gallery/bg-p.jpg",
     "alt": ""
   },
   {
