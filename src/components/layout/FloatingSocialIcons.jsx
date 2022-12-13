@@ -11,16 +11,44 @@ const FloatingSocialIcons = () => {
     <aside className='fixed bottom-0 left-0 text-white'>
       <ul className='flex flex-col h-[60vh] items-center left-icons-container justify-end'>
         <li>
-          <FBIcon width={35} height={35} color='#ff0000' />
+          <a
+            href='https://www.facebook.com/cseunited'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-none'
+          >
+            <FBIcon width={35} height={35} color='#ff0000' />
+          </a>
         </li>
         <li>
-          <LinkedInIcon width={35} height={35} color='#ff0000' />
+          <a
+            href='https://www.linkedin.com/company/cseunited/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-none'
+          >
+            <LinkedInIcon width={35} height={35} color='#ff0000' />
+          </a>
         </li>
         <li>
-          <YTIcon width={35} height={35} color='#ff0000' />
+          <a
+            href='https://www.youtube.com/@cse.united'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-none'
+          >
+            <YTIcon width={35} height={35} color='#ff0000' />
+          </a>
         </li>
         <li>
-          <WAIcon width={38} height={38} color='#ff0000' />
+          <a
+            href='https://wa.me/919876543215?text=Hello'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-none'
+          >
+            <WAIcon width={38} height={38} color='#ff0000' />
+          </a>
         </li>
       </ul>
     </aside>
