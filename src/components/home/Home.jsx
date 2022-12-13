@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
-import { ReactComponent as Logo } from "../assets/Logo.svg";
+import { ReactComponent as Logo } from "../../assets/Logo.svg";
 import HomeMain from "./HomeMain";
 
 const Home = () => {
@@ -17,13 +17,13 @@ const Home = () => {
           </div>
         </ParallaxBannerLayer>
 
-        <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
+        {/* <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="mt-[300px] lg:mt-[400px] text-4xl sm:text-6xl lg:text-8xl text-red-600 title-text">
               CSE-UNITED
             </h1>
           </div>
-        </ParallaxBannerLayer>
+        </ParallaxBannerLayer> */}
       </ParallaxBanner>
     </section>
   );

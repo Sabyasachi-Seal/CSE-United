@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo.jpg';
-import menuIcon from '../assets/icons/menu-icon.png';
-import close from '../assets/icons/close.svg';
+import logo from '../../assets/images/logo.jpg';
+import menuIcon from '../../assets/icons/menu-icon.png';
+import close from '../../assets/icons/close.svg';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

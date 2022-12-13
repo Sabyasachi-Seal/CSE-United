@@ -1,8 +1,8 @@
 import React from 'react';
-import { ReactComponent as FBIcon } from '../assets/icons/facebook.svg';
-import { ReactComponent as LinkedInIcon } from '../assets/icons/linkedin.svg';
-import { ReactComponent as YTIcon } from '../assets/icons/youtube.svg';
-import { ReactComponent as WAIcon } from '../assets/icons/whatsapp.svg';
+import { ReactComponent as FBIcon } from '../../assets/icons/facebook.svg';
+import { ReactComponent as LinkedInIcon } from '../../assets/icons/linkedin.svg';
+import { ReactComponent as YTIcon } from '../../assets/icons/youtube.svg';
+import { ReactComponent as WAIcon } from '../../assets/icons/whatsapp.svg';
 
 // use ref - https://cseunitedmain.gtsb.io/
 

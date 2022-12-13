@@ -13,10 +13,6 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
   font-family: 'Big Shoulders Inline Display', cursive;
 }
 
-.font-satisfy {
-  font-family: 'Satisfy', serif;
-}
-
 .shadow-heading {
   filter: drop-shadow(0 0 1.2rem rgba(255, 20, 20, 1));
 }
@@ -29,6 +25,10 @@ body {
   background-color: #161616;
   overflow-x: hidden;
   position: relative;
+}
+
+#root{
+  overflow-x: hidden;
 }
 
 /* ----------- Background ---------- */

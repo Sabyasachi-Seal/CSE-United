@@ -48,12 +48,12 @@ const HomeMain = () => {
         <div className='zoom'>
           <div className='image image-1'>
             <img
-              src='/farewell.jpg'
+              src='/bg.jpg'
               alt=''
-              className='hidden md:block scale-75 translate-y-[-200px]'
+              className='hidden md:block scale-90 translate-y-[-100px]'
             />
             <img
-              src='/farewell-sm.jpg'
+              src='/bg-sm.jpg'
               alt=''
               className='md:hidden min-h-[110vh]'
             />

@@ -1,14 +1,16 @@
-import React from "react";
-import ReactPlayer from "react-player/lazy";
+import React from 'react';
+import ContentVideo from './ContentVideo';
 
 const Content = () => {
   return (
-    <section id="about" className="w-full text-white content-bg pl-2 md:pt-16">
-      <div className="p-8 pl-16">
-        <h1 className="text-6xl mb-4" data-aos='fade-right'>The Title</h1>
-        <div className="flex flex-col lg:flex-row">
-          <div className="grow-1 py-4" data-aos='fade-up'>
-            <p className="text-lg">
+    <section id='about' className='w-full text-white content-bg pl-2 md:pt-16'>
+      <div className='py-8 md:p-8 pr-4 !pl-16'>
+        <h1 className='text-6xl mb-4' data-aos='fade-right'>
+          The Title
+        </h1>
+        <div className='flex flex-col lg:flex-row'>
+          <div className='grow-1 py-4' data-aos='fade-up'>
+            <p className='text-lg'>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -22,10 +24,11 @@ const Content = () => {
             </p>
           </div>
 
-          <div className="grow-1 p-4 flex justify-center" data-aos='fade-left'>
-            <div className="rounded-md overflow-hidden">
-              <ReactPlayer url="https://fb.watch/gVSG5-k0Sq" />
-            </div>
+          <div
+            className='grow-1 md:p-4 flex justify-center'
+            data-aos='fade-left'
+          >
+            <ContentVideo />
           </div>
         </div>
       </div>

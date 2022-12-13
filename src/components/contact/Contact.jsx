@@ -9,7 +9,7 @@ const Contact = () => {
       id='contact'
       className='w-full bg-transparent text-white flex justify-evenly items-center'
     >
-      <div className='background flex min-h-[100vh] items-center w-[90%] mx-auto md:w-fit pb-8'>
+      <div className='background flex min-h-[100vh] items-center w-full md:w-fit pl-12 pr-1 md:pl-0 md:pr-0 pb-8'>
         <div className='form-container p-[10px] w-full md:w-[750px] lg:w-[1000px] md:h-[600px] flex items-center justify-center'>
           <div className='form bg-slate-800 rounded-xl w-full h-full'>
             <div className='form-header flex items-center py-[10px] px-[20px] bg-slate-500 rounded-t-xl h-12'>
