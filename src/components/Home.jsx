@@ -19,7 +19,7 @@ const Home = () => {
 
         <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-8xl text-red-600 font-thin title-text">
+            <h1 className="text-8xl text-red-600 title-text">
               CSE-UNITED
             </h1>
           </div>

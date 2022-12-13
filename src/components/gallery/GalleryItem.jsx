@@ -27,7 +27,7 @@ const GalleryItem = ({ data, onClickHandler }) => {
 
   return (
     <div className='pics' onClick={onClickHandler}>
-      <img src={data.url} alt={data.alt} />
+      <img src={data.url} alt={data.alt} className='rounded-sm' />
     </div>
   );
 };

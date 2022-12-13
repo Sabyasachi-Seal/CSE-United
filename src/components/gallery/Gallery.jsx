@@ -20,10 +20,12 @@ const Gallery = () => {
   return (
     <section
       id='gallery'
-      className='min-h-screen w-full bg-transparent text-white flex flex-col justify-center items-center pl-16'
+      className='min-h-screen w-full bg-transparent text-white flex flex-col justify-center items-center pb-16 pl-16'
     >
       <div className='pb-12'>
-        <h1 className='text-4xl'>Gallery</h1>
+        <h1 className='text-6xl font-heading shadow-heading border-b-2 border-red-600'>
+          G<span className='text-red-500'>all</span>ery
+        </h1>
       </div>
 
       <div className='gallery'>

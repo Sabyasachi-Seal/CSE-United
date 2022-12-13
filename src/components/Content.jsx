@@ -3,12 +3,12 @@ import ReactPlayer from "react-player/lazy";
 
 const Content = () => {
   return (
-    <section className="w-full text-white content-bg pl-2">
+    <section id="about" className="w-full text-white content-bg pl-2">
       <div className="p-8 pl-16">
-        <h1 className="text-4xl mb-4">The Title</h1>
-        <div className="flex">
+        <h1 className="text-6xl mb-4">The Title</h1>
+        <div className="flex flex-col lg:flex-row">
           <div className="grow-1 py-4">
-            <p className="text-xl">
+            <p className="text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
