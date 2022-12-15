@@ -17,6 +17,12 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
   filter: drop-shadow(0 0 1.2rem rgba(255, 20, 20, 1));
 }
 
+.loader{
+  position: fixed;
+  left: 45%;
+  top: 40%;
+}
+
 html {
   scroll-behavior: smooth;
 }
