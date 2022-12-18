@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
 
                 <div className='flex flex-col-reverse md:flex-col'>
-                  <div className='form-map rounded-lg py-2 md:p-0 w-full'>
+                  <div className='form-map rounded-lg py-2 md:p-0 w-full px-2 sm:px-0'>
                     <div className='w-full h-[220px] md:w-[300px] md:h-[200px] mb-4'>
                       <Iframe
                         src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.078405559548!2d88.42484061488224!3d22.57617068518093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02751a9d9c9e85%3A0x7fe665c781b10383!2sTechno%20Main%20Salt%20Lake!5e0!3m2!1sen!2sin!4v1667490398485!5m2!1sen!2sin'
@@ -46,7 +46,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  <div className='app-contact text-sm flex flex-col pb-2 md:pb-0'>
+                  <div className='app-contact text-sm flex flex-col pb-2 md:pb-0 px-2 sm:px-0'>
                     <p>Contact : +62 81 314 928 595</p>
                     <p>Email: </p>
                     <p>Address: </p>

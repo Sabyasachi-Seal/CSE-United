@@ -8,6 +8,10 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
   font-family: 'Roboto Slab', serif;
 }
 
+:root {
+  --theme-black: #161616;
+}
+
 .font-heading,
 .font-heading > * {
   font-family: 'Big Shoulders Inline Display', cursive;
@@ -17,24 +21,19 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
   filter: drop-shadow(0 0 1.2rem rgba(255, 20, 20, 1));
 }
 
-.loader{
-  position: fixed;
-  left: 45%;
-  top: 40%;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #161616;
+  background-color: var(--theme-black);
   overflow-x: hidden;
   position: relative;
 }
 
-#root{
+#root {
   overflow-x: hidden;
+  position: relative;
 }
 
 /* ----------- Background ---------- */
@@ -46,7 +45,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(./assets/icons/bubbles-1.svg) repeat 0 0, rgba(22, 22, 22, 0.6);
+  background: url(./assets/icons/bubbles-1.svg) repeat 0 0,
+    rgba(22, 22, 22, 0.6);
   background-size: 50%;
 }
 

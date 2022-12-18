@@ -5,9 +5,20 @@ const Content = () => {
   return (
     <section id='about' className='w-full text-white content-bg pl-2 md:pt-16'>
       <div className='py-8 md:p-8 pr-4 !pl-16'>
-        <h1 className='text-6xl mb-4' data-aos='fade-right'>
-          Ab<span className='text-red-600'>ou</span>t{' '}
-          <span className='text-red-600'>U</span>s
+        <h1 className='text-5xl mb-4' data-aos='fade-right'>
+          <span>A</span>
+          <span className='text-4xl'>
+            B<span className='text-red-600'>OU</span>
+            <span>T</span>
+          </span>
+
+          <br className='sm:hidden' />
+
+          <span>{' C'}</span>
+          <span className='text-red-600'>SE</span>
+          <span>-UN</span>
+          <span className='text-red-600'>ITE</span>
+          <span>D</span>
         </h1>
         <div className='flex flex-col lg:flex-row'>
           <div className='grow-1 py-4' data-aos='fade-up'>

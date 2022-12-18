@@ -8,7 +8,7 @@ import { ReactComponent as WAIcon } from '../../assets/icons/whatsapp.svg';
 
 const FloatingSocialIcons = () => {
   return (
-    <aside className='fixed bottom-0 left-0 text-white'>
+    <aside className='fixed bottom-0 left-0 text-white z-[99]'>
       <ul className='flex flex-col h-[60vh] items-center left-icons-container justify-end'>
         <li>
           <a

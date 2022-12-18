@@ -1,30 +1,46 @@
-import React from "react";
-import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
-import { ReactComponent as Logo } from "../../assets/Logo.svg";
-import HomeMain from "./HomeMain";
+import React from 'react';
+// import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+import { ReactComponent as Logo } from '../../assets/Logo.svg';
+// import HomeMain from "./HomeMain";
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-[125vh] w-full text-white bg-theme-black relative overflow-hidden">
-      <ParallaxBanner className="aspect-[1/3] md:aspect-[1] lg:aspect-[2] !overflow-visible">
+    <section
+      id='home'
+      className='min-h-[100vh] w-full text-white bg-theme-black relative overflow-hidden'
+    >
+      <div className='image'>
+        <img
+          src='/bg.jpg'
+          alt=''
+          className='w-full h-[100vh] object-cover hidden md:block'
+        />
+        <img src='/bg-sm.jpg' alt='' className='md:hidden h-[100vh]' />
+      </div>
+
+      <div className='w-full h-full flex justify-center items-center absolute left-0 top-0'>
+        <Logo className='logo w-[10rem] h-[10rem] lg:w-[16rem] lg:h-[16rem]' />
+      </div>
+
+      {/* <ParallaxBanner className='aspect-[1/3] md:aspect-[1] lg:aspect-[2] !overflow-visible'>
         <ParallaxBannerLayer>
           <HomeMain />
         </ParallaxBannerLayer>
 
         <ParallaxBannerLayer speed={-15}>
-          <div className="w-full h-full flex justify-center items-center">
-            <Logo className="logo w-[10rem] h-[10rem] lg:w-[16rem] lg:h-[16rem]" />
+          <div className='w-full h-full flex justify-center items-center'>
+            <Logo className='logo w-[10rem] h-[10rem] lg:w-[16rem] lg:h-[16rem]' />
           </div>
         </ParallaxBannerLayer>
 
-        {/* <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
+        <ParallaxBannerLayer speed={-30} opacity={[1, 0, 'easeInOut']}>
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="mt-[300px] lg:mt-[400px] text-4xl sm:text-6xl lg:text-8xl text-red-600 title-text">
               CSE-UNITED
             </h1>
           </div>
-        </ParallaxBannerLayer> */}
-      </ParallaxBanner>
+        </ParallaxBannerLayer>
+      </ParallaxBanner> */}
     </section>
   );
 };

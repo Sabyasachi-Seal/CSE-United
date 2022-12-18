@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className='fixed w-full top-0 text-white z-[999]'>
+    <nav className='sticky w-full top-0 text-white z-[999]'>
       <div className='flex py-2 px-4 bg-red-800 relative'>
         <div className='grow flex items-center'>
           <img
