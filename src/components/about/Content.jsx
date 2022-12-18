@@ -22,7 +22,7 @@ const Content = () => {
         </h1>
         <div className='flex flex-col lg:flex-row'>
           <div className='grow-1 py-4' data-aos='fade-up'>
-            <p className='text-lg'>
+            <p className='text-lg md:text-xl text-justify pr-2'>
               At a time when the fest frenzy was just catching up, the
               Department of Computer Science and Engineering of Techno India
               Salt Lake came up with something quite ingenious. A totally new
