@@ -60,24 +60,28 @@ const Contact = () => {
                     <input
                       className='app-form-control w-full h-8 px-1 bg-transparent my-4'
                       placeholder='Name'
+                      required
                     />
                   </div>
                   <div className='app-form-group'>
                     <input
                       className='app-form-control w-full h-8 px-1 bg-transparent my-4'
                       placeholder='Email'
+                      required
                     />
                   </div>
                   <div className='app-form-group'>
                     <input
                       className='app-form-control w-full h-8 px-1 bg-transparent my-4'
                       placeholder='Contact No'
+                      required
                     />
                   </div>
                   <div className='app-form-group message'>
                     <textarea
                       className='app-form-control w-full h-12 px-1 bg-transparent my-4'
                       placeholder='Message'
+                      required
                     />
                   </div>
                   <div className='app-form-group buttons flex justify-evenly mt-4 md:mt-0'>
