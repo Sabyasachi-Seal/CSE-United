@@ -7,12 +7,12 @@ const Contact = () => {
   return (
     <section
       id='contact'
-      className='w-full bg-transparent text-white flex justify-evenly items-center'
+      className='w-full bg-transparent text-white flex justify-evenly items-center pb-10'
     >
       <div className='background flex min-h-[100vh] items-center w-full md:w-fit pl-12 pr-1 md:pl-0 md:pr-0 pb-8'>
         <div className='form-container p-[10px] w-full md:w-[750px] lg:w-[1000px] md:h-[600px] flex items-center justify-center'>
-          <div className='form bg-slate-800 rounded-xl w-full h-full'>
-            <div className='form-header flex items-center py-[10px] px-[20px] bg-slate-500 rounded-t-xl h-12'>
+          <div className='form bg-transparent backdrop-blur-sm rounded-xl w-full h-full shadow-[0px_0px_20px_10px_rgba(255,255,255,0.2)]'>
+            <div className='form-header flex items-center py-[10px] px-[20px] bg-slate-500/30 backdrop-blur-sm rounded-t-xl h-12'>
               <div className='form-header-left w-1/2 flex justify-left'>
                 <div className='form-header-button close mx-1 inline-block w-2 h-2 mr-1 rounded-full bg-rose-600'></div>
                 <div className='form-header-button maximize mx-1 inline-block w-2 h-2 mr-1 rounded-full bg-amber-300'></div>
@@ -46,7 +46,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  <div className='app-contact text-sm flex flex-col pb-2 md:pb-0 px-2 sm:px-0'>
+                  <div className='app-contact text-sm flex flex-col pb-2 md:pb-0 px-2 sm:px-0 text-center md:text-left '>
                     <p><a href="tel:+918910304203"> Contact : +91 89103 04203</a></p>
                     <p><a href='ti.cseunited@gmail.com'>Email: ti.cseunited@gmail.com</a></p>
                     <p>Address: EM-4/1, Sector V, Bidhannagar, Kolkata, West Bengal</p>

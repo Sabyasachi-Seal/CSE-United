@@ -135,6 +135,14 @@ body {
   outline: none;
 }
 
+.app-contact p{
+  transition: all 0.5s;
+}
+
+.app-contact p:hover{
+  color: #d00b02;
+}
+
 .home-main {
   height: 100vh;
 }
@@ -178,10 +186,10 @@ button {
   font-family: inherit;
   --backgroundColor: rgba(246, 241, 209);
   --colorShadeA: rgb(255, 255, 255);
-  --colorShadeB: rgb(121, 142, 186);
-  --colorShadeC: rgb(150, 152, 232);
-  --colorShadeD: rgb(187, 198, 232);
-  --colorShadeE: rgb(205, 212, 255);
+  --colorShadeB: rgb(188, 64, 64);
+  --colorShadeC: rgb(232, 150, 150);
+  --colorShadeD: rgb(243, 40, 40);
+  --colorShadeE: rgb(232, 29, 29);
 }
 
 button.app-form-button {
@@ -211,6 +219,10 @@ button.app-form-button::before {
 button.app-form-button:hover {
   background: var(--colorShadeD);
   transform: translate(0, 0.375em);
+  --tw-drop-shadow: drop-shadow(0 0.2rem 0.3rem #d00b02);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 button.app-form-button:hover::before {
@@ -219,6 +231,10 @@ button.app-form-button:hover::before {
 
 button.app-form-button:active {
   transform: translate(0em, 0.75em);
+  --tw-drop-shadow: drop-shadow(0 0.2rem 0.3rem #d00b02);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 button.app-form-button:active::before {
