@@ -47,9 +47,9 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className='app-contact text-sm flex flex-col pb-2 md:pb-0 px-2 sm:px-0'>
-                    <p>Contact : +62 81 314 928 595</p>
-                    <p>Email: </p>
-                    <p>Address: </p>
+                    <p><a href="tel:+918910304203"> Contact : +91 89103 04203</a></p>
+                    <p><a href='ti.cseunited@gmail.com'>Email: ti.cseunited@gmail.com</a></p>
+                    <p>Address: EM-4/1, Sector V, Bidhannagar, Kolkata, West Bengal</p>
                   </div>
                 </div>
               </div>
