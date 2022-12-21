@@ -17,7 +17,7 @@ const Navbar = () => {
             height={40}
             className='rounded-md'
           />
-          <p className='mb-0 pl-2 text-xl md:text-3xl font-bold'>
+          <p className='mb-0 pl-2 text-3xl font-bold brand_name'>
             CSE-UNITED 2k23
           </p>
         </div>
