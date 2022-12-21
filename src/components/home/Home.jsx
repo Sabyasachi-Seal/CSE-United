@@ -14,7 +14,7 @@ const items = [
     title2: 'with ALUMNI',
     subtitle:
       'Old batchmates, Professors, Staff, Beloved juniors, and Memories...',
-    overlayOpacity: 0.75
+    overlayOpacity: 75
   },
   {
     img: '/gallery/2.png',
@@ -58,8 +58,8 @@ const Home = () => {
 
             {item.title1 && (
               <div
-                className={`absolute top-0 left-0 w-full h-full flex flex-col items-start justify-center pl-20 md:pl-24 bg-black/${
-                  item.overlayOpacity ? '[' + item.overlayOpacity + ']' : 40
+                className={`absolute top-0 left-0 w-full h-full flex flex-col items-start justify-center pl-20 md:pl-24 bg-black ${
+                  item.overlayOpacity ? 'bg-opacity-75' : 'bg-opacity-40'
                 }`}
               >
                 <p className='text-4xl md:text-6xl font-thin tracking-widest leading-tight'>
