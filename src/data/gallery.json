@@ -27,7 +27,7 @@
     "animation": "zoom-in"
   },
   {
-    "id": "1",
+    "id": "5",
     "type": "image",
     "url": "/gallery/2.png",
     "alt": "",
@@ -35,35 +35,36 @@
     "offset": "200"
   },
   {
-    "id": "2",
+    "id": "6",
     "type": "image",
     "url": "/gallery/3.png",
     "alt": "",
     "animation": "fade-up"
   },
   {
-    "id": "1",
+    "id": "7",
     "type": "image",
     "url": "/gallery/4.png",
     "alt": "",
     "animation": "fade-down"
   },
   {
-    "id": "2",
-    "type": "image",
-    "url": "/gallery/5.png",
+    "id": "8",
+    "type": "video",
+    "platform": "youtube",
+    "url": "https://youtu.be/p-2EpeMGRPM",
     "alt": "",
-    "animation": "fade-right"
+    "animation": "zoom-in"
   },
   {
-    "id": "1",
+    "id": "9",
     "type": "image",
     "url": "/gallery/6.png",
     "alt": "",
     "animation": "fade-left"
   },
   {
-    "id": "2",
+    "id": "10",
     "type": "image",
     "url": "/gallery/7.png",
     "alt": "",

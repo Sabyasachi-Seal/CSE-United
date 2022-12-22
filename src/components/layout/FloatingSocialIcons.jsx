@@ -42,7 +42,7 @@ const FloatingSocialIcons = () => {
         </li>
         <li>
           <a
-            href='https://wa.me/919876543215?text=Hello'
+            href='https://wa.me/918910304203?text=Hello'
             target='_blank'
             rel='noopener noreferrer'
             className='decoration-none contact-icons'
