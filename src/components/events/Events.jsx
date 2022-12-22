@@ -44,7 +44,7 @@ const Events = () => {
                   />
                 </CCol>
                 <CCol md={8}>
-                  <CCardBody style={{ color: "#990033" }}>
+                  <CCardBody style={{ color: "#ff0000" }}>
                     <CCardTitle className="text-center fs-1">
                       Mr and Mrs CSE
                     </CCardTitle>
@@ -85,7 +85,7 @@ const Events = () => {
                   />
                 </CCol>
                 <CCol md={8}>
-                  <CCardBody style={{ color: "#990033" }}>
+                  <CCardBody style={{ color: "#ff0000" }}>
                     <CCardTitle className="text-center fs-1">
                       Batminton
                     </CCardTitle>
@@ -125,7 +125,7 @@ const Events = () => {
                   />
                 </CCol>
                 <CCol md={8}>
-                  <CCardBody style={{ color: "#990033" }}>
+                  <CCardBody style={{ color: "#ff0000" }}>
                     <CCardTitle className="text-center fs-1">
                       Valorant
                     </CCardTitle>
@@ -167,7 +167,7 @@ const Events = () => {
                   />
                 </CCol>
                 <CCol md={8}>
-                  <CCardBody style={{ color: "#990033" }}>
+                  <CCardBody style={{ color: "#ff0000" }}>
                     <CCardTitle className="text-center fs-1">
                       One Minute to Fame
                     </CCardTitle>
