@@ -48,7 +48,7 @@ const Events = () => {
                     <CCardTitle className="text-center fs-1">
                       Mr and Mrs CSE
                     </CCardTitle>
-                    <CCardText>
+                    <CCardText style={{ color: "#ffffff" }}>
                       Are you ready to showcase your best and bring out the
                       talent in you? Audition for Mr. And Ms. CSE and get a
                       chance to win the department's most prestigious titles.
@@ -89,7 +89,7 @@ const Events = () => {
                     <CCardTitle className="text-center fs-1">
                       Batminton
                     </CCardTitle>
-                    <CCardText>
+                    <CCardText style={{ color: "#ffffff" }}>
                       Hey there Shuttlers! Ready to test your badminton skills?
                       Then register for the most compelling Badminton Tournament
                       for free! Here is your chance to prove your talents and
@@ -129,7 +129,7 @@ const Events = () => {
                     <CCardTitle className="text-center fs-1">
                       Valorant
                     </CCardTitle>
-                    <CCardText>
+                    <CCardText style={{ color: "#ffffff" }}>
                       Do you want to get an invite to the ultimate Valorant
                       battle? Register for the most-exciting gaming tournament
                       and compete from the comfort of your home! Book your spot
@@ -171,7 +171,7 @@ const Events = () => {
                     <CCardTitle className="text-center fs-1">
                       One Minute to Fame
                     </CCardTitle>
-                    <CCardText>
+                    <CCardText style={{ color: "#ffffff" }}>
                       Still waiting for a chance to showcase your unique talents
                       in front of the world? CSE UNITED presents 1 minute to
                       Fame, an awesome platform to display your talents in front
