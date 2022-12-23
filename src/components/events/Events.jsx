@@ -81,13 +81,13 @@ const Events = () => {
                 <CCol md={4}>
                   <CCardImage
                     style={{ maxHeight: "50rem", maxWidth: "50rem" }}
-                    src="/batminton.jpeg"
+                    src="/badminton.jpeg"
                   />
                 </CCol>
                 <CCol md={8}>
                   <CCardBody style={{ color: "#ff0000" }}>
                     <CCardTitle className="text-center fs-1">
-                      Batminton
+                      Badminton
                     </CCardTitle>
                     <CCardText style={{ color: "#ffffff" }}>
                       Hey there Shuttlers! Ready to test your badminton skills?
