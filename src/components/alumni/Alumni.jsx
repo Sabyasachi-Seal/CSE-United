@@ -2,7 +2,7 @@ import React from 'react';
 
 const Alumni = () => {
   return (
-    <section id='alumni' className='w-full py-12'>
+    <section id='alumni' className='w-full pb-12'>
       <div
         className='w-full flex flex-col md:flex-row bg-theme-black'
         data-aos='fade-up'

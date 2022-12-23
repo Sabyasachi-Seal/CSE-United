@@ -12,6 +12,22 @@ https://colorhunt.co/palette/0000003e3636d72323f5eded
   --theme-black: #161616;
 }
 
+/* Custom Scrollbar */
+
+body::-webkit-scrollbar {
+  width: 0.5em !important;
+  border-radius: 10px !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #070707b2 !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 40, 40, 0.767) !important;
+  border-radius: 10px !important;
+}
+
 .font-heading,
 .font-heading > * {
   font-family: 'Big Shoulders Inline Display', cursive;

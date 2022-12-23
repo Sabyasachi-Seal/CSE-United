@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "Mr and Mrs CSE",
+    "description": "Are you ready to showcase your best and bring out the talent in you? Audition for Mr. And Ms. CSE and get a chance to win the department's most prestigious titles. So, what are you waiting for?! Only CSE, CST, and CSBS students from 1st and 2nd Years can apply",
+    "link": "https://forms.gle/DtTF6czUYrn2qKfA6",
+    "poster": "mnmcse.jpeg",
+    "date": "7th Jan, 2023"
+  },
+  {
+    "id": "2",
+    "title": "Badminton",
+    "description": "Hey there Shuttlers! Ready to test your badminton skills? Then register for the most compelling Badminton Tournament for free! Here is your chance to prove your talents and win Exciting goodies!",
+    "link": "https://forms.gle/Kd31XKVxwj9Qa6cx8",
+    "poster": "badminton.jpeg",
+    "date": "23th Dec, 2022"
+  },
+  {
+    "id": "3",
+    "title": "Valorant",
+    "description": "Do you want to get an invite to the ultimate Valorant battle? Register for the most-exciting gaming tournament and compete from the comfort of your home! Book your spot today and get a chance to win prizes from a prize pool of Rs. 2000. P.S.: We have limited slots for 16 teams. So, what are you waiting for?!",
+    "link": "https://forms.gle/PRupLCGzXdZdfjP66",
+    "poster": "valo.jpeg",
+    "date": "7th Jan, 2023"
+  },
+  {
+    "id": "4",
+    "title": "One Minute to Fame",
+    "description": " Still waiting for a chance to showcase your unique talents in front of the world? CSE UNITED presents 1 minute to Fame, an awesome platform to display your talents in front of your everyone. Participants will be given exactly a minute to perform anything of their choice in front of the judges.",
+    "link": "https://forms.gle/dGAR5XYWdjKBAecr9",
+    "poster": "omtf.jpeg",
+    "date": "7th Jan, 2023"
+  }
+]

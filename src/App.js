@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import 'aos/dist/aos.css';
+import './App.css';
 import Loader from './components/loader/Loader';
 import Content from './components/about/Content';
 import Events from './components/events/Events';
@@ -10,12 +10,12 @@ import Gallery from './components/gallery/Gallery';
 import Home from './components/home/Home';
 import Navbar from './components/layout/Navbar';
 // import Sponsors from "./components/sponsors/Sponsors";
-// import { ParallaxProvider } from 'react-scroll-parallax';
 import Contact from './components/contact/Contact';
 import Background from './components/layout/Background';
 import AOS from 'aos';
 import Alumni from './components/alumni/Alumni';
 import { updateScrollPosition } from './utils/scroll';
+import SpecialEvents from './components/events/SpecialEvents';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -63,11 +63,10 @@ function App() {
       <Background />
 
       <main className='App'>
-        {/* <ParallaxProvider> */}
-          <Home />
-        {/* </ParallaxProvider> */}
+        <Home />
         <Content />
         <Events />
+        <SpecialEvents />
         {/* <Sponsors /> */}
         <Alumni />
         <Gallery />
