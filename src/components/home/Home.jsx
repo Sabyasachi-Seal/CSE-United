@@ -36,6 +36,7 @@ const config = {
   showStatus: false,
   showThumbs: false,
   showIndicators: false,
+  swipeable: false,
   autoPlay: true,
   // interval: 2200,
   infiniteLoop: true
