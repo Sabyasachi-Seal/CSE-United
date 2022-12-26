@@ -33,12 +33,12 @@ const EventCard = ({ data }) => {
         <div className='flex items-center py-6'>
           <p className='m-0 grow flex justify-center text-sm md:text-base'>
             {dates.map((dt, idx) => (
-              <>
+              <React.Fragment key={idx.toString()}>
                 {idx > 0 && <span className='pl-1 pr-2'>&&</span>}
                 <span className='block'>{dt.day}</span>
                 <span className='-translate-y-1 text-xs'>{dt.label}</span>
                 <span className='block pl-2'>{dt.rest}</span>
-              </>
+              </React.Fragment>
             ))}
           </p>
           <div className='grow' data-aos='fade-down' data-aos-delay='400'>
