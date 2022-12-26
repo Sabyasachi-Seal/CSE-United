@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EventCard = ({ data }) => {
-  const { day, label, rest } = getDateAndLabel(data.date);
+  const dates = data.date.map((d) => getDateAndLabel(d));
 
   return (
     <div className='p-4'>
@@ -31,10 +31,15 @@ const EventCard = ({ data }) => {
         </div>
 
         <div className='flex items-center py-6'>
-          <p className='m-0 grow flex justify-center'>
-            <span className='block'>{day}</span>
-            <span className='-translate-y-1 text-xs'>{label}</span>
-            <span className='block pl-2'>{rest}</span>
+          <p className='m-0 grow flex justify-center text-sm md:text-base'>
+            {dates.map((dt, idx) => (
+              <>
+                {idx > 0 && <span className='pl-1 pr-2'>&&</span>}
+                <span className='block'>{dt.day}</span>
+                <span className='-translate-y-1 text-xs'>{dt.label}</span>
+                <span className='block pl-2'>{dt.rest}</span>
+              </>
+            ))}
           </p>
           <div className='grow' data-aos='fade-down' data-aos-delay='400'>
             <a

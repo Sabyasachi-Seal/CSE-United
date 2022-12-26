@@ -9,7 +9,7 @@ const Striver = () => {
         data-aos-delay='600'
       >
         <h1 className='italic text-white text-4xl mb-8 tracking-wide'>
-          “Well, I am coming to the grand fest of CSE-United 2022. Excited ?”
+          “Well, I am coming to the grand fest of CSE-United 2023. Excited ?”
         </h1>
         <p className='text-lg'>
           - Mr.Raj Vikramaditya aka{' '}
@@ -34,7 +34,7 @@ const Striver = () => {
               <b className='tracking-wide'>Raj Vikramaditya a.k.a Striver</b>, a
               commonplace name in the coding community owing to his
               revolutionary SDE Sheet, is all set to visit the campus on 6th
-              January, 2022.
+              January, 2023.
             </p>
             <br />
             <p data-aos='fade-up' data-aos-delay='100' data-aos-offset='10'>
