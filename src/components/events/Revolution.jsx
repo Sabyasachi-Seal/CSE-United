@@ -2,7 +2,7 @@ import React from "react";
 
 const Revolution = () => {
   return (
-    <div className="bg-theme-black">
+    <div className="pt-10 bg-theme-black">
       {/* <div
         className="text-white text-center px-4 py-12"
         data-aos="zoom-in-down"

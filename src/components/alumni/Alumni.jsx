@@ -4,7 +4,7 @@ const Alumni = () => {
   return (
     <section id='alumni' className='w-full pb-12'>
       <div
-        className='w-full flex flex-col md:flex-row bg-theme-black'
+        className='pl-10 pr-10 w-full flex flex-col md:flex-row bg-theme-black'
         data-aos='fade-up'
       >
         <div data-aos="fade-right">
