@@ -38,5 +38,13 @@
     "link": "https://forms.gle/dGAR5XYWdjKBAecr9",
     "poster": "cricket.jpeg",
     "date": ["2nd Jan, 2023"]
+  },
+  {
+    "id": "6",
+    "title": "Bughunt",
+    "description": " A fest for the CSE, CSBS and DCST people would have been incomplete without a coding competition. Team CSE United presents to you, Bughunt. Bughunt would be a 1 hour quiz which will include debugging and coding questions, among other technical stuff.",
+    "link": "https://chat.whatsapp.com/LkHmoHodY7XI326NmNYwe4",
+    "poster": "bughunt.jpeg",
+    "date": ["5th Jan, 2023"]
   }
 ]
