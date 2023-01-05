@@ -22,20 +22,26 @@ const Sponsors = () => {
           Coming<span className="text-red-500 font-heading"> Soon</span>...
         </span>{" "}
       </h5> */}
-      <Carousel>
+      <div class="grid grid-cols-3 gap-4">
         <div className="rounded-md">
-          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-          <p className="legend">Legend 1</p>
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
         </div>
-        <div>
-          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-          <p className="legend">Legend 2</p>
+        <div className="rounded-md">
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
         </div>
-        <div>
-          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-          <p className="legend">Legend 3</p>
+        <div className="rounded-md">
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
         </div>
-      </Carousel>
+        <div className="rounded-md">
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
+        </div>
+        <div className="rounded-md">
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
+        </div>
+        <div className="rounded-md">
+          <a href=""><img class="rounded-full" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /></a>
+        </div>
+      </div>
     </section>
   );
 };
