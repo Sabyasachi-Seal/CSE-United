@@ -24,22 +24,22 @@ const Sponsors = () => {
       </h5> */}
       <div class="grid grid-cols-3 gap-6">
         <div className="rounded-md">
-          <a href="https://prestogifts.com/mobile/"><img class="" src="https://www.smergers.com/media/franchiselogos/Presto_LOGO.png" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href="https://prestogifts.com/mobile/"><img class="" src="https://www.smergers.com/media/franchiselogos/Presto_LOGO.png" alt=""/></a>
         </div>
         <div className="rounded-md">
-          <a href="https://www.decathlon.in/"><img class="" src="https://logos-world.net/wp-content/uploads/2020/12/Decathlon-Logo.png" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href="https://www.decathlon.in/"><img class="" src="https://logos-world.net/wp-content/uploads/2020/12/Decathlon-Logo.png" alt=""/></a>
         </div>
         <div className="rounded-md">
-          <a href="https://ayuhealthandwellness.com/wp/"><img class="" src="https://cdn.discordapp.com/attachments/1036282124468244572/1059881867416973382/Bottle.png" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href="https://ayuhealthandwellness.com/wp/"><img class="" src="https://cdn.discordapp.com/attachments/1036282124468244572/1059881867416973382/Bottle.png" alt=""/></a>
         </div>
         <div className="rounded-md">
-          <a href="https://kwikpic.in/"><img class="" src="https://www.kwikpic.in/blog/wp-content/uploads/2022/10/Primary-Logo-e1667194420295-2048x532.png" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href="https://kwikpic.in/"><img class="" src="https://www.kwikpic.in/blog/wp-content/uploads/2022/10/Primary-Logo-e1667194420295-2048x532.png" alt=""/></a>
         </div>
         {/* <div className="rounded-md">
-          <a href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
         </div>
         <div className="rounded-md">
-          <a href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
+          <a rel="noreferrer" target="_blank"  href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
         </div> */}
       </div>
     </section>
