@@ -35,12 +35,18 @@ const Sponsors = () => {
         <div className="rounded-md">
           <a rel="noreferrer" target="_blank"  href="https://kwikpic.in/"><img class="" src="https://www.kwikpic.in/blog/wp-content/uploads/2022/10/Primary-Logo-e1667194420295-2048x532.png" alt=""/></a>
         </div>
-        {/* <div className="rounded-md">
-          <a rel="noreferrer" target="_blank"  href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
+        <div className="rounded-md">
+          <a rel="noreferrer" target="_blank"  href="https://www.rapido.bike/"><img class="" src="https://rapido.bike/images/rapido-logo.png" alt=""/></a>
         </div>
         <div className="rounded-md">
-          <a rel="noreferrer" target="_blank"  href=""><img class="" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""/></a>
-        </div> */}
+          <a rel="noreferrer" target="_blank"  href="https://www.asd.org.in/"><img class="" src="https://www.asd.org.in/img/logo.webp" alt=""/></a>
+        </div>
+        <div className="rounded-md">
+          <a rel="noreferrer" target="_blank"  href="https://technopreneurs.org.in/"><img class="" src="https://lh3.googleusercontent.com/CAsCJiUQiBdxtJnjLREokWAQgjLvhL6casPsTGzKVx_Eu4rXsHq0IVbtCURdaxtu9_M=w2400" alt=""/></a>
+        </div>
+        <div className="rounded-md">
+          <a rel="noreferrer" target="_blank"  href="https://www.zomato.com/kolkata/kathi-bathi-kestopur"><img class="" src="https://lh4.googleusercontent.com/ummZzB2yUISpvfCBqAaXjp97G1xb3emM91j4RTcekhSMCYAZDHdH_92wqSXDs6_IS94=w2400" alt=""/></a>
+        </div>
       </div>
     </section>
   );
