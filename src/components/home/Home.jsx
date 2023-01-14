@@ -9,11 +9,11 @@ const items = [
     imgSm: '/bg-sm.jpg'
   },
   {
-    img: '/gallery/bg-p.jpg',
-    title1: 'CATCH UP',
-    title2: 'with ALUMNI',
+    img: '/gallery/bg-p.png',
+    title1: 'Guide To Placement',
+    title2: 'with Striver',
     subtitle:
-      'Old batchmates, Professors, Staff, Beloved juniors, and Memories...',
+      'Tips for placement preparation and interview preparation by the god of DSA himself',
     overlayOpacity: 75
   },
   {
@@ -24,7 +24,7 @@ const items = [
     subtitle2: 'Techno India Salt Lake'
   },
   {
-    img: '/gallery/6.png',
+    img: '/gallery/7.png',
     title1: '7th January',
     title2: '2023',
     subtitle: 'Mark your calendar'

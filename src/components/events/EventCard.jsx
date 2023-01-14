@@ -30,7 +30,7 @@ const EventCard = ({ data }) => {
           </div>
         </div>
 
-        <div className='flex items-center py-6'>
+        {/* <div className='flex items-center py-6'> 
           <p className='m-0 grow flex justify-center text-sm md:text-base'>
             {dates.map((dt, idx) => (
               <React.Fragment key={idx.toString()}>
@@ -51,7 +51,7 @@ const EventCard = ({ data }) => {
               Register
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
