@@ -17,6 +17,7 @@ import Alumni from './components/alumni/Alumni';
 import { updateScrollPosition } from './utils/scroll';
 import SpecialEvents from './components/events/SpecialEvents';
 import Sponsors from './components/sponsors/Sponsors';
+import Instareel from './components/aftermovie/Instareel';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -71,6 +72,7 @@ function App() {
         <Alumni />
         <Gallery />
         <Sponsors />
+        <Instareel />
         <Contact />
       </main>
       <Footer />
