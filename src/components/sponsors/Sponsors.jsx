@@ -41,12 +41,12 @@ const Sponsors = () => {
         <div className="rounded-md">
           <a rel="noreferrer" target="_blank"  href="https://www.asd.org.in/"><img class="" src="https://www.asd.org.in/img/logo.webp" alt=""/></a>
         </div>
-        <div className="rounded-md">
+        {/* <div className="rounded-md">
           <a rel="noreferrer" target="_blank"  href="https://technopreneurs.org.in/"><img class="" src="https://lh3.googleusercontent.com/CAsCJiUQiBdxtJnjLREokWAQgjLvhL6casPsTGzKVx_Eu4rXsHq0IVbtCURdaxtu9_M=w2400" alt=""/></a>
         </div>
         <div className="rounded-md">
           <a rel="noreferrer" target="_blank"  href="https://www.zomato.com/kolkata/kathi-bathi-kestopur"><img class="" src="https://lh4.googleusercontent.com/ummZzB2yUISpvfCBqAaXjp97G1xb3emM91j4RTcekhSMCYAZDHdH_92wqSXDs6_IS94=w2400" alt=""/></a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
