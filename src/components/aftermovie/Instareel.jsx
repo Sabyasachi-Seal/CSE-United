@@ -13,12 +13,9 @@ const SpecialEvents = () => {
       >
         <h1 className="text-6xl font-heading shadow-heading border-b-2 border-red-600 mb-8">
           <span>
-            Check out<span className="text-red-500 font-heading">Out</span>al
+            Check out our
           </span>{" "}
-          <span>
-            Short Insta
-            <span className="text-red-500 font-heading">Aftermovie</span>
-          </span>
+            <span className="text-red-500 font-heading">Insta Aftermovie</span>
         </h1>
       </a>
     </section>
