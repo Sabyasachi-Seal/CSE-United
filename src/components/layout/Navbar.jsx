@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className='sticky w-full top-0 text-white z-[999]'>
-      <div className='flex py-2 px-4 bg-red-800 relative'>
+      <div className='font-bold flex py-2 px-4 bg-red-800 relative'>
         <div className='grow flex items-center'>
           <img
             src={logo}
@@ -32,14 +32,17 @@ const Navbar = () => {
           <li className='px-2 lg:px-4'>
             <a href='#events'>Events</a>
           </li>
-          {/* <li className='px-2 lg:px-4'>
-            <a href='#sponsors'>Sponsors</a>
-          </li> */}
           <li className='px-2 lg:px-4'>
             <a href='#gallery'>Gallery</a>
           </li>
           <li className='px-2 lg:px-4'>
+            <a href='#sponsors'>Sponsors</a>
+          </li>
+          <li className='px-2 lg:px-4'>
             <a href='#contact'>Contact</a>
+          </li>
+          <li className='px-2 lg:px-4'>
+            <a href='https://www.hastalavistacse.com/'>Hasta La Vista</a>
           </li>
         </ul>
 
@@ -72,11 +75,11 @@ const Navbar = () => {
                 Events
               </a>
             </li>
-            {/* <li className='py-4 dropdown_item-4'>
+            <li className='py-4 dropdown_item-4'>
               <a href='#sponsors' onClick={() => setOpen(false)}>
                 Sponsors
               </a>
-            </li> */}
+            </li>
             <li className='py-4 dropdown_item-5'>
               <a href='#gallery' onClick={() => setOpen(false)}>
                 Gallery

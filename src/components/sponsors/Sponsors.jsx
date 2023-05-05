@@ -1,12 +1,9 @@
-// import React, { Component } from "react";
-// import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from "react-responsive-carousel";
 
 const Sponsors = () => {
   return (
     <section
-      id="special-events"
+      id="sponsors"
       className="bg-transparent backdrop-blur-md pl-10 pr-10 w-full flex flex-col items-center pt-10 pb-10 text-white"
     >
       <h1 className="text-6xl font-heading shadow-heading border-b-2 border-red-600 mb-8">
@@ -17,11 +14,6 @@ const Sponsors = () => {
           Sp<span className="text-red-500 font-heading">ons</span>ors
         </span>
       </h1>
-      {/* <h5 className="text-6xl font-heading shadow-heading mb-8">
-        <span>
-          Coming<span className="text-red-500 font-heading"> Soon</span>...
-        </span>{" "}
-      </h5> */}
       <div class="grid grid-cols-3 gap-6">
         <div className="rounded-md">
           <a rel="noreferrer" target="_blank"  href="https://prestogifts.com/mobile/"><img class="" src="https://www.smergers.com/media/franchiselogos/Presto_LOGO.png" alt=""/></a>
